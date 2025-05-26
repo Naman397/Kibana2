@@ -9,7 +9,7 @@ run the following cmd :
 
 docker-compose build   (will take at leat 3 min for the first build. Subsequent builds should be faster.)
 
-docker compose up 
+docker-compose up 
 
 go to "localhost:5601"
 
