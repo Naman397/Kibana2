@@ -1,0 +1,800 @@
+2015-10-18 18:09:42,479 INFO [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 18:10:50,155 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:10:18,012 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 320 seconds.  Will retry shortly ...
+2015-10-18 18:05:47,680 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:10:02,511 ERROR [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: ERROR IN CONTACTING RM. 
+2015-10-18 18:06:28,108 INFO [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 18:02:15,949 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Recalculating schedule, headroom=<memory:0, vCores:-27>
+2015-10-18 18:04:08,065 INFO [ContainerLauncher #8] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:28345
+2015-10-18 18:01:58,963 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: [attempt_1445144423722_0020_m_000001_0] using containerId: [container_1445144423722_0020_01_000003 on NM: [MININT-FNANLI5.fareast.corp.microsoft.com:52368]
+2015-10-18 18:03:12,874 INFO [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.19209063
+2015-10-18 18:06:23,045 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 85 seconds.  Will retry shortly ...
+2015-10-18 18:04:45,754 INFO [IPC Server handler 12 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012
+2015-10-18 18:10:00,511 INFO [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 18:02:47,841 INFO [ContainerLauncher #3] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000003_0 : 13562
+2015-10-18 18:06:29,108 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:3 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3
+2015-10-18 18:09:11,649 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:03:55,517 INFO [ContainerLauncher #4] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000006 taskAttempt attempt_1445144423722_0020_m_000004_0
+2015-10-18 18:06:34,108 INFO [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 18:03:41,907 INFO [IPC Server handler 23 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19716828
+2015-10-18 18:10:44,139 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 346 seconds.  Will retry shortly ...
+2015-10-18 18:04:04,877 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 ScheduledMaps:2 ScheduledReds:0 AssignedMaps:8 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:8 ContRel:0 HostLocal:5 RackLocal:3
+2015-10-18 18:09:48,792 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:10:52,546 ERROR [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: ERROR IN CONTACTING RM. 
+2015-10-18 18:09:13,649 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 256 seconds.  Will retry shortly ...
+2015-10-18 18:07:46,425 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:07:33,393 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 155 seconds.  Will retry shortly ...
+2015-10-18 18:08:33,537 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:07:42,222 INFO [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-10-18 18:06:29,092 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:09:59,824 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 302 seconds.  Will retry shortly ...
+2015-10-18 18:09:04,461 ERROR [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: ERROR IN CONTACTING RM. 
+2015-10-18 18:08:05,504 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 188 seconds.  Will retry shortly ...
+2015-10-18 18:07:41,222 WARN [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030
+2015-10-18 18:03:52,611 INFO [IPC Server handler 10 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006
+2015-10-18 18:02:02,510 INFO [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1445144423722_0020_m_000002 given task: attempt_1445144423722_0020_m_000000_0
+2015-10-18 18:06:47,156 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 109 seconds.  Will retry shortly ...
+2015-10-18 18:05:59,725 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:03:22,109 INFO [IPC Server handler 3 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.27765483
+2015-10-18 18:01:53,885 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445144423722_0020_m_000004_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2015-10-18 18:08:07,239 WARN [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030
+2015-10-18 18:04:51,755 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-18 18:01:56,916 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:1 ScheduledMaps:9 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:0 RackLocal:1
+2015-10-18 18:01:53,400 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Registered webapp guice modules
+2015-10-18 18:02:32,434 INFO [IPC Server handler 9 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108
+2015-10-18 18:05:41,617 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:02:01,041 INFO [ContainerLauncher #2] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000002_0 : 13562
+2015-10-18 18:08:24,537 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.hdfs.LeaseRenewer: Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 207 seconds.  Will retry shortly ...
+2015-10-18 18:04:11,034 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1445144423722_0020: ask=0 release= 1 newContainers=0 finishedContainers=1 resourcelimit=<memory:1024, vCores:-26> knownNMs=4
+2015-10-18 18:07:02,219 WARN [LeaseRenewer:msrabi@msra-sa-41:9000] org.apache.hadoop.ipc.Client: Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+2015-10-18 18:07:46,222 INFO [RMCommunicator Allocator] org.apache.hadoop.ipc.Client: Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+Dec 10 10:56:41 LabSZ sshd[25012]: Failed password for root from 183.62.140.253 port 58556 ssh2
+Dec 10 09:19:49 LabSZ sshd[24669]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 09:19:06 LabSZ sshd[24653]: Failed password for invalid user test1 from 187.141.143.180 port 46519 ssh2
+Dec 10 09:12:18 LabSZ sshd[24479]: Failed password for invalid user admin from 103.99.0.122 port 63168 ssh2
+Dec 10 11:00:56 LabSZ sshd[25286]: Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]
+Dec 10 10:58:22 LabSZ sshd[25115]: Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]
+Dec 10 09:11:53 LabSZ sshd[24462]: input_userauth_request: invalid user admin [preauth]
+Dec 10 10:59:59 LabSZ sshd[25220]: Failed password for root from 183.62.140.253 port 39714 ssh2
+Dec 10 10:56:40 LabSZ sshd[25012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root
+Dec 10 10:58:20 LabSZ sshd[25115]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root
+Dec 10 09:14:27 LabSZ sshd[24541]: Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]
+Dec 10 09:12:57 LabSZ sshd[24507]: reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 09:19:04 LabSZ sshd[24653]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 10:05:03 LabSZ sshd[24813]: Received disconnect from 60.2.12.12: 11: Bye Bye [preauth]
+Dec 10 09:12:35 LabSZ sshd[24494]: input_userauth_request: invalid user PlcmSpIp [preauth]
+Dec 10 09:12:10 LabSZ sshd[24475]: pam_unix(sshd:auth): check pass; user unknown
+Dec 10 08:25:58 LabSZ sshd[24375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+Dec 10 09:19:09 LabSZ sshd[24655]: Invalid user test2 from 187.141.143.180
+Dec 10 11:04:04 LabSZ sshd[25480]: Failed password for root from 183.62.140.253 port 57223 ssh2
+Dec 10 10:57:06 LabSZ sshd[25037]: Failed password for root from 183.62.140.253 port 35021 ssh2
+Dec 10 10:56:37 LabSZ sshd[25008]: Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]
+Dec 10 09:14:01 LabSZ sshd[24531]: Failed password for root from 187.141.143.180 port 49674 ssh2
+Dec 10 07:28:21 LabSZ sshd[24259]: Failed password for root from 112.95.230.3 port 37035 ssh2
+Dec 10 07:27:52 LabSZ sshd[24235]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+Dec 10 07:08:28 LabSZ sshd[24208]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 08:39:47 LabSZ sshd[24408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root
+Dec 10 09:14:52 LabSZ sshd[24551]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root
+Dec 10 09:15:41 LabSZ sshd[24569]: Failed password for root from 187.141.143.180 port 45661 ssh2
+Dec 10 09:19:49 LabSZ sshd[24669]: Invalid user ingrid from 187.141.143.180
+Dec 10 10:59:15 LabSZ sshd[25171]: Failed password for root from 183.62.140.253 port 59470 ssh2
+Dec 10 09:17:01 LabSZ sshd[24599]: Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]
+Dec 10 09:19:04 LabSZ sshd[24653]: Invalid user test1 from 187.141.143.180
+Dec 10 11:01:06 LabSZ sshd[25298]: Failed password for root from 183.62.140.253 port 52545 ssh2
+Dec 10 10:58:39 LabSZ sshd[25134]: Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]
+Dec 10 11:04:17 LabSZ sshd[25501]: Failed password for root from 183.62.140.253 port 59702 ssh2
+Dec 10 10:59:23 LabSZ sshd[25182]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root
+Dec 10 11:02:05 LabSZ sshd[25364]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root
+Dec 10 08:25:11 LabSZ sshd[24369]: Failed password for invalid user admin from 5.188.10.180 port 60682 ssh2
+Dec 10 11:02:23 LabSZ sshd[25380]: Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]
+Dec 10 09:19:17 LabSZ sshd[24657]: Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]
+Dec 10 09:08:40 LabSZ sshd[24419]: Failed password for invalid user admin from 185.190.58.151 port 49673 ssh2
+Dec 10 09:16:29 LabSZ sshd[24587]: Failed password for root from 187.141.143.180 port 57704 ssh2
+Dec 10 09:12:21 LabSZ sshd[24481]: Failed password for invalid user admin from 103.99.0.122 port 50011 ssh2
+Dec 10 11:02:11 LabSZ sshd[25370]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root
+Dec 10 10:56:46 LabSZ sshd[25017]: Failed password for root from 183.62.140.253 port 59321 ssh2
+Dec 10 10:57:26 LabSZ sshd[25058]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root
+Dec 10 10:59:30 LabSZ sshd[25188]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root
+Dec 10 10:56:12 LabSZ sshd[24981]: Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]
+Dec 10 09:09:42 LabSZ sshd[24421]: Failed password for invalid user admin from 185.190.58.151 port 41650 ssh2
+Dec 10 08:24:59 LabSZ sshd[24367]: Connection closed by 5.188.10.180 [preauth]
+[Mon Dec 05 17:55:35 2005] [error] mod_jk child workerEnv in error state 6
+[Mon Dec 05 07:16:03 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 07:18:00 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 07:07:30 2005] [error] mod_jk child workerEnv in error state 8
+[Mon Dec 05 16:40:06 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Dec 05 13:46:20 2005] [notice] jk2_init() Found child 6007 in scoreboard slot 7
+[Mon Dec 05 07:25:59 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Dec 05 10:17:51 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 19:32:32 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 06:44:39 2005] [notice] jk2_init() Found child 32565 in scoreboard slot 11
+[Sun Dec 04 06:47:39 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Dec 05 10:26:36 2005] [notice] jk2_init() Found child 5388 in scoreboard slot 10
+[Sun Dec 04 16:24:03 2005] [notice] jk2_init() Found child 1219 in scoreboard slot 6
+[Sun Dec 04 06:46:33 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 07:17:56 2005] [notice] jk2_init() Found child 350 in scoreboard slot 9
+[Mon Dec 05 12:55:49 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 20:01:37 2005] [error] mod_jk child workerEnv in error state 6
+[Mon Dec 05 16:38:17 2005] [notice] jk2_init() Found child 6443 in scoreboard slot 7
+[Sun Dec 04 04:52:15 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Dec 04 20:38:10 2005] [notice] jk2_init() Found child 2031 in scoreboard slot 7
+[Sun Dec 04 19:32:34 2005] [error] mod_jk child workerEnv in error state 6
+[Mon Dec 05 13:36:27 2005] [notice] jk2_init() Found child 5953 in scoreboard slot 6
+[Sun Dec 04 06:55:00 2005] [notice] jk2_init() Found child 32648 in scoreboard slot 9
+[Mon Dec 05 07:31:22 2005] [notice] jk2_init() Found child 4932 in scoreboard slot 6
+[Mon Dec 05 11:06:51 2005] [notice] jk2_init() Found child 5618 in scoreboard slot 8
+[Sun Dec 04 07:11:04 2005] [notice] jk2_init() Found child 309 in scoreboard slot 7
+[Mon Dec 05 07:51:23 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Dec 04 05:04:03 2005] [notice] jk2_init() Found child 8764 in scoreboard slot 10
+[Mon Dec 05 03:40:55 2005] [error] mod_jk child workerEnv in error state 6
+[Mon Dec 05 09:36:14 2005] [error] mod_jk child workerEnv in error state 6
+[Mon Dec 05 10:33:44 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Dec 04 06:52:39 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Dec 05 07:55:00 2005] [notice] jk2_init() Found child 5034 in scoreboard slot 6
+[Mon Dec 05 10:59:29 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 20:30:59 2005] [notice] jk2_init() Found child 1984 in scoreboard slot 10
+[Mon Dec 05 18:35:53 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Dec 04 20:24:45 2005] [notice] jk2_init() Found child 1950 in scoreboard slot 9
+[Mon Dec 05 13:44:38 2005] [error] mod_jk child workerEnv in error state 6
+[Mon Dec 05 10:26:26 2005] [notice] jk2_init() Found child 5385 in scoreboard slot 8
+[Mon Dec 05 05:06:47 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Dec 05 10:33:44 2005] [error] mod_jk child workerEnv in error state 7
+[Sun Dec 04 06:52:14 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 20:44:29 2005] [notice] jk2_init() Found child 2059 in scoreboard slot 7
+[Mon Dec 05 15:31:06 2005] [notice] jk2_init() Found child 6260 in scoreboard slot 7
+[Mon Dec 05 13:32:30 2005] [error] mod_jk child workerEnv in error state 6
+[Sun Dec 04 20:32:55 2005] [error] mod_jk child workerEnv in error state 10
+[Mon Dec 05 10:47:44 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Dec 04 20:32:50 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Mon Dec 05 10:10:33 2005] [error] mod_jk child workerEnv in error state 6
+[Mon Dec 05 13:38:53 2005] [notice] jk2_init() Found child 5969 in scoreboard slot 10
+081110 121758 10889 INFO dfs.DataNode$PacketResponder: Received block blk_-5671206752084326639 of size 67108864 from /10.251.214.67
+081110 210145 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_-490230821467544285 is added to invalidSet of 10.250.10.6:50010
+081111 065437 19 INFO dfs.FSDataset: Deleting block blk_3706543205492061794 file /mnt/hadoop/dfs/data/current/subdir1/blk_3706543205492061794
+081110 115742 10672 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_6017354285686373326 terminating
+081110 210640 19 INFO dfs.FSDataset: Deleting block blk_7108974241330205218 file /mnt/hadoop/dfs/data/current/subdir22/blk_7108974241330205218
+081110 224437 16512 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_-9120005470237070778 terminating
+081110 191403 14120 WARN dfs.DataNode$DataXceiver: 10.250.14.196:50010:Got exception while serving blk_2967299761311489673 to /10.251.89.155:
+081109 210248 1138 INFO dfs.DataNode$PacketResponder: Received block blk_6921674711959888070 of size 67108864 from /10.251.65.203
+081110 150240 12700 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4673509946769671609 src: /10.251.30.85:34022 dest: /10.251.30.85:50010
+081111 084003 24758 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_703387617548630438 terminating
+081111 094939 29 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.250.6.223:50010 is added to blk_7474737521119026445 size 67108864
+081111 023222 17683 INFO dfs.DataNode$DataXceiver: 10.250.14.143:50010 Served block blk_-664656559337730574 to /10.250.7.96
+081110 225740 33 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/randtxt3/_temporary/_task_200811101024_0007_m_001662_0/part-01662. blk_8196657927516481490
+081110 143336 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/sortrand2/_temporary/_task_200811101024_0003_r_000257_0/part-00257. blk_-1732662141253491971
+081111 075905 19 INFO dfs.FSDataset: Deleting block blk_6373260430960091026 file /mnt/hadoop/dfs/data/current/subdir43/blk_6373260430960091026
+081111 065211 26 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_5580254744888391593 is added to invalidSet of 10.251.201.204:50010
+081110 210413 19 INFO dfs.FSDataset: Deleting block blk_3733339790842827121 file /mnt/hadoop/dfs/data/current/subdir42/blk_3733339790842827121
+081110 105628 19 INFO dfs.FSDataset: Deleting block blk_5075966182561035053 file /mnt/hadoop/dfs/data/current/subdir53/blk_5075966182561035053
+081110 103107 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_-5145886774827574591 is added to invalidSet of 10.251.105.189:50010
+081110 013412 30 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.199.159:50010 is added to blk_-8558845834445970595 size 67108864
+081110 112152 9621 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_6610244864386894422 terminating
+081110 151940 12996 INFO dfs.DataNode$DataXceiver: Receiving block blk_4742178675580222210 src: /10.251.42.9:60232 dest: /10.251.42.9:50010
+081110 013559 5614 INFO dfs.DataNode$PacketResponder: Received block blk_7736147489540456118 of size 67108864 from /10.251.74.227
+081111 074548 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand6/_temporary/_task_200811101024_0013_m_001835_0/part-01835. blk_6178964531181542074
+081110 210511 19 INFO dfs.FSDataset: Deleting block blk_-4110699195744660699 file /mnt/hadoop/dfs/data/current/subdir34/blk_-4110699195744660699
+081111 070735 31 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.214.130:50010 is added to blk_-4427507243535536615 size 67108864
+081111 081954 24553 INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_8487226415276391460 terminating
+081110 122407 11042 INFO dfs.DataNode$PacketResponder: Received block blk_692184983396207285 of size 67108864 from /10.250.6.214
+081110 210149 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_-7693277678281547790 is added to invalidSet of 10.251.30.6:50010
+081111 065510 19 INFO dfs.FSDataset: Deleting block blk_4367982328407767477 file /mnt/hadoop/dfs/data/current/subdir28/blk_4367982328407767477
+081110 103027 34 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_8350646254685996250 is added to invalidSet of 10.251.199.159:50010
+081111 054310 21173 INFO dfs.DataNode$PacketResponder: Received block blk_6685663454079607598 of size 10157271 from /10.251.66.3
+081111 085916 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_2869833078504290822 is added to invalidSet of 10.251.123.132:50010
+081111 023139 19 INFO dfs.FSDataset: Deleting block blk_-7106479503467535906 file /mnt/hadoop/dfs/data/current/subdir32/blk_-7106479503467535906
+081111 065339 22547 INFO dfs.DataNode$PacketResponder: Received block blk_5406084276349645828 of size 67108864 from /10.250.10.223
+081110 212644 28 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand3/_temporary/_task_200811101024_0005_m_000720_0/part-00720. blk_-7988596544606686086
+081111 034937 19166 INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_5663417083925711869 terminating
+081111 044320 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_-8351015090014570293 is added to invalidSet of 10.251.199.86:50010
+081111 052803 21053 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5836693155656083066 src: /10.251.214.67:41233 dest: /10.251.214.67:50010
+081110 210423 19 INFO dfs.FSDataset: Deleting block blk_-8360774680830158225 file /mnt/hadoop/dfs/data/current/subdir31/blk_-8360774680830158225
+081111 044648 19 INFO dfs.FSDataset: Deleting block blk_4863571548336254624 file /mnt/hadoop/dfs/data/current/subdir5/blk_4863571548336254624
+081110 210540 19 INFO dfs.FSDataset: Deleting block blk_3921292580505776296 file /mnt/hadoop/dfs/data/current/subdir57/blk_3921292580505776296
+081111 080151 19 INFO dfs.FSDataset: Deleting block blk_8384967715738359346 file /mnt/hadoop/dfs/data/current/subdir27/blk_8384967715738359346
+081111 042129 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.199.86:50010 is added to blk_4330492872922862223 size 67108864
+081111 033953 26 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.26.177:50010 is added to blk_6928449948805597176 size 67108864
+081109 204106 329 INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_-6670958622368987959 terminating
+081110 081515 8312 WARN dfs.DataNode$DataXceiver: 10.251.31.5:50010:Got exception while serving blk_6332892729727950039 to /10.251.123.1:
+081111 093208 25332 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_-3967261531426400230 terminating
+081110 121248 10737 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4434479572312007079 src: /10.251.30.101:60539 dest: /10.251.30.101:50010
+081111 023027 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_-2225353020301959077 is added to invalidSet of 10.251.125.237:50010
+03-17 16:14:29.484  1702  1820 D DisplayPowerController: Animating brightness: target=38, rate=200
+03-17 16:16:05.076  1702  2113 W ActivityManager: getTasks: caller 10111 does not hold REAL_GET_TASKS; limiting output
+03-17 16:13:47.371  2227  2227 I StackScrollAlgorithm: updateClipping isOverlap:false, getTopPadding=333.0, Translation=-222.0
+03-17 16:14:08.245  2626  2839 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+03-17 16:13:40.324  1702  2113 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0
+03-17 16:14:16.820  2227  2227 I PhoneStatusBar: setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)
+03-17 16:14:00.049  2227  2227 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+03-17 16:16:05.512  1702  2096 I AlarmManager: sending alarm Alarm{2741459 type 3 when 509267844 PendingIntent{f75f81e: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = 0,listenerTag =null
+03-17 16:15:11.325  1702  1820 I DisplayPowerController: HBM brightnessIn =38
+03-17 16:16:04.162  1702 17621 D PowerManagerService: userActivityNoUpdateLocked: eventTime=261988799, event=0, flags=0x0, uid=1000
+03-17 16:14:22.539  2227  2227 V PhoneStatusBar: setLightsOn(true)
+03-17 16:15:05.994  1702  8303 D PowerManagerService: acquire lock=120758482, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=2626
+03-17 16:15:58.413  1702  2105 D PowerManagerService: userActivityNoUpdateLocked: eventTime=261983047, event=2, flags=0x0, uid=1000
+03-17 16:13:47.517  1702  8671 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+03-17 16:13:46.388  2227  2227 I PhoneStatusBar: suspendAutohide
+03-17 16:14:21.428  2227  2227 I PhoneStatusBar: setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)
+03-17 16:13:46.144  1702  2105 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0
+03-17 16:15:26.530  1702  2639 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[264,444][920,908] }
+03-17 16:16:02.241  1702  2105 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0
+03-17 16:14:19.248  1702  1820 I DisplayPowerController: HBM brightnessIn =38
+03-17 16:14:19.550  1702  1820 I DisplayPowerController: HBM brightnessOut =38
+03-17 16:14:27.045  1702  2096 I AlarmManager: sending alarm Alarm{19069ff type 3 when 509169377 PendingIntent{50303cc: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = 0,listenerTag =null
+03-17 16:16:00.514  2227  2227 V PhoneStatusBar: setLightsOn(true)
+03-17 16:15:49.536  1702  1702 I NotificationManager: cancelNotification,index:-1
+03-17 16:15:00.939  1702  2558 D PowerManagerService: acquire lock=134680583, flags=0x1, tag="RILJ_ACK_WL", name=com.android.phone, ws=null, uid=1001, pid=2626
+03-17 16:13:55.839  1702  2639 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0
+03-17 16:15:39.249  2227  2227 I StackScrollAlgorithm: state.clipTopAmount:148, i:0
+03-17 16:15:55.970  2227  2227 V PhoneStatusBar: setLightsOn(true)
+03-17 16:13:46.778  2626  2839 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=1 retVal=true
+03-17 16:13:47.078  2227  2227 I PanelView: onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851713, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false
+03-17 16:14:02.155  2227  2227 V PhoneStatusBar: setLightsOn(true)
+03-17 16:14:15.087  1702  2555 I WindowManager: Destroying surface Surface(name=PopupWindow:9b04807) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555 
+03-17 16:15:27.188  1702 17630 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+03-17 16:16:06.773  1702  3137 I ActivityManager: ActivityRecord info: ActivityInfo{80c2e70 com.tencent.mm.ui.LauncherUI}, euid: 0
+03-17 16:15:52.546  2227  2227 I PhoneStatusBar: setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)
+03-17 16:13:40.346  2626  2642 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+03-17 16:16:07.084  1702  3694 D ActivityManager: getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+03-17 16:13:55.941 30852 30852 V AudioManager: getMode...
+03-17 16:15:00.354  1702  1702 D PowerManagerService: Releasing suspend blocker "PowerManagerService.WakeLocks".
+03-17 16:13:47.525  1702 27353 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0
+03-17 16:16:04.858  1702  1736 W ActivityManager: getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output
+03-17 16:15:58.676  2227  2227 I PhoneStatusBar: setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)
+03-17 16:14:23.458  1702  1820 D DisplayPowerController: Animating brightness: target=38, rate=200
+03-17 16:16:04.242  1702  3697 W ActivityManager: getRunningAppProcesses: caller 10112 does not hold REAL_GET_TASKS; limiting output
+03-17 16:13:47.517  1702  8671 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { flg=0x10800000 cmp=com.tencent.qqmusic/.business.lockscreen.LockScreenActivity (has extras) }
+03-17 16:15:49.528  1702  1702 I NotificationManager: cancelNotificationLocked,remove =com.tencent.mobileqq
+03-17 16:16:07.070  1702  8671 D ActivityManager: Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }
+03-17 16:14:24.971  1702 27365 W ActivityManager: getTasks: caller 10111 does not hold REAL_GET_TASKS; limiting output
+03-17 16:15:49.587  2227  2227 I PhoneStatusBar: setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)
+03-17 16:16:02.897  2227  2227 W KeyguardUpdateMonitor: ACTION_BATTERY_CHANGED AMP: 0; Volt: 0
+2015-07-29 19:22:08,703 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:42747
+2015-07-29 19:30:25,608 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:32:27,585 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:60575
+2015-07-29 19:28:34,481 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:34:21,249 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:32:31,018 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-07-29 20:39:58,002 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x24ed9311942000c
+2015-07-29 19:28:23,927 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:21:35,823 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:34:05,388 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-29 19:34:51,956 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:49566
+2015-08-10 18:13:25,200 - INFO  [CommitProcessor:1:ZooKeeperServer@595] - Established session 0x14f05578bd80020 with negotiated timeout 10000 for client /10.10.34.11:38390
+2015-07-29 19:32:50,969 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 2, error = 
+2015-08-25 07:16:15,781 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
+2015-07-29 19:33:05,144 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:22:03,337 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:35:19,443 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-31 21:23:12,897 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.35:48971; will be dropped if server is in r-o mode
+2015-07-29 19:22:53,441 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:29:58,774 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:25:43,145 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 19:29:24,591 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:34:34,517 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:32868
+2015-07-29 19:22:50,025 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:52:16,002 - INFO  [ProcessThread(sid:2 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x24ed93119420008
+2015-07-31 00:17:52,857 - INFO  [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24edfaa87170018 with negotiated timeout 10000 for client /10.10.34.21:42521
+2015-07-29 19:32:32,428 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:31:34,969 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:32:54,397 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:30:21,380 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:48502
+2015-07-29 19:30:48,107 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.11:48602
+2015-07-30 14:38:37,500 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /10.10.34.11:35811
+2015-08-10 18:25:27,950 - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /10.10.34.11:51259; will be dropped if server is in r-o mode
+2015-07-29 19:20:16,690 - ERROR [LearnerHandler-/10.10.34.12:59455:LearnerHandler@562] - Unexpected exception causing shutdown while sock still open
+2015-07-29 19:32:45,020 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:36:38,193 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:57977
+2015-07-29 19:34:38,676 - INFO  [/10.10.34.13:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:49670
+2015-07-29 19:36:53,074 - INFO  [/10.10.34.11:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.13:33266
+2015-07-29 19:16:24,348 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:34:05,861 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 1, error = 
+2015-07-29 19:34:48,808 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@762] - Connection broken for id 188978561024, my id = 3, error = 
+2015-07-31 11:01:55,633 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /10.10.34.12:54235
+2015-07-30 16:12:05,640 - INFO  [CommitProcessor:2:ZooKeeperServer@595] - Established session 0x24ed931194200a7 with negotiated timeout 10000 for client /10.10.34.36:45209
+2015-07-29 19:21:31,836 - INFO  [/10.10.34.12:3888:QuorumCnxManager$Listener@493] - Received connection request /10.10.34.12:54788
+2015-08-25 03:38:15,343 - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@368] - Cannot open channel to 3 at election address /10.10.34.13:3888
+2015-07-29 19:32:17,777 - WARN  [RecvWorker:188978561024:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2015-07-29 23:50:50,001 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x34ed9ac1c1e0033, timeout of 10000ms exceeded
+2015-07-29 19:32:37,607 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2015-07-29 19:33:42,688 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+2015-07-29 19:29:25,274 - WARN  [SendWorker:188978561024:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+20171223-22:18:0:159|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038620000##7111##548640##8661##16256##27324478
+20171223-22:30:24:45|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:46:659|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=128360
+20171223-23:40:14:462|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:17:47:153|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514038560000##7081##548567##8661##16256##27310970
+20171223-23:54:28:160|Step_LSC|30002312|onExtend:1514044468000 0 0 5
+20171223-23:14:44:913|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514041980000##7196##549659##8661##16256##30728728
+20171224-0:9:35:137|Step_LSC|30002312|onStandStepChanged 3786
+20171223-22:30:24:129|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:15:30:641|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-23:54:54:138|Step_LSC|30002312|onStandStepChanged 3786
+20171223-22:52:46:287|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514040660000##7189##549659##8661##16256##29410605
+20171223-22:15:36:149|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514038440000##7018##548365##8661##13311##27179732
+20171224-0:28:0:83|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-22:15:44:166|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171224-0:7:20:137|Step_LSC|30002312|onStandStepChanged 3786
+20171223-22:19:8:660|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038680000##7122##548870##8661##16256##27392978
+20171223-22:31:59:620|Step_LSC|30002312|onExtend:1514039575000 0 0 0
+20171223-23:14:43:938|Step_StandReportReceiver|30002312|REPORT : 7193 5135 154074 240
+20171223-22:19:58:375|HiH_HiHealthBinder|30002312|insertHiHealthData() checkAppType  0 appID = 1
+20171223-22:15:51:169|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=127525
+20171224-0:24:0:114|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-22:20:4:680|Step_StandReportReceiver|30002312|REPORT : 7186 5130 153924 240
+20171223-22:17:46:364|Step_LSC|30002312|onExtend:1514038667000 2 0 4
+20171223-22:19:58:428|HiH_HiSyncControl|30002312|initUserPrivacy the userPrivacy switch is open, start push user data!
+20171223-22:15:48:679|Step_StandReportReceiver|30002312|REPORT : 7039 5025 150775 240
+20171223-22:30:23:993|Step_LSC|30002312|onExtend:1514039232000 0 0 5
+20171223-22:39:25:260|Step_LSC|30002312|onStandStepChanged 3761
+20171223-22:17:54:152|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514038560000##7102##548579##8661##16256##27317468
+20171223-23:19:20:138|Step_LSC|30002312|onStandStepChanged 3786
+20171223-22:15:30:632|Step_SPUtils|30002312| getTodayTotalDetailSteps = 1514038440000##7008##548365##8661##12456##27174269
+20171223-22:39:25:264|Step_LSC|30002312|onExtend:1514039857000 0 0 5
+20171223-23:17:41:692|Step_LSC|30002312|onStandStepChanged 3786
+20171223-22:52:45:810|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130673
+20171223-23:14:44:954|Step_StandReportReceiver|30002312|REPORT : 7198 5139 154181 240
+20171223-22:19:57:789|Step_ExtSDM|30002312|calculateCaloriesWithCache totalCalories=130052
+20171223-23:7:51:222|Step_LSC|30002312|getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501
+20171223-22:30:24:348|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514039340000##7189##549659##8661##16256##28068666
+20171223-22:15:29:648|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:19:58:366|Step_FlushableStepDataCache|30002312|writeDataToDB size 327
+20171223-23:57:34:138|Step_LSC|30002312|onStandStepChanged 3786
+20171223-22:16:1:150|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038500000##7054##548551##8661##16256##27205469
+20171223-23:50:0:130|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+20171223-22:20:2:165|Step_SPUtils|30002312|setTodayTotalDetailSteps=1514038740000##7179##549200##8661##16256##27446483
+20171223-22:15:35:848|Step_LSC|30002312|onStandStepChanged 3591
+20171223-22:17:23:358|Step_LSC|30002312|onExtend:1514038644000 2 0 4
+20171223-22:20:1:863|Step_LSC|30002312|onStandStepChanged 3751
+20171223-22:17:52:169|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-22:15:33:149|Step_ExtSDM|30002312|calculateAltitudeWithCache totalAltitude=240
+20171223-23:35:0:131|Step_LSC|30002312|processHandleBroadcastAction action:android.intent.action.TIME_TICK
+[10.30 16:49:09] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:35:08] Dropbox.exe - block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 20:45:56] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:15
+[07.26 21:47:25] chrome.exe *64 - collector.githubapp.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:05:31] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:43:44] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 05:30:23] Dropbox.exe - client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:39:42] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:07:59] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 21:19:21] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 948 bytes sent, 782 bytes received, lifetime <1 sec
+[07.27 09:53:38] chrome.exe *64 - r6---sn-p5qs7n7s.googlevideo.com:443 close, 1175 bytes (1.14 KB) sent, 11041 bytes (10.7 KB) received, lifetime 00:01
+[10.30 20:43:46] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[07.27 06:19:08] chrome.exe *64 - mtalk.google.com:5228 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403
+[07.26 19:00:52] tencentdl.exe - puui.qpic.cn:80 close, 379 bytes sent, 9409 bytes (9.18 KB) received, lifetime <1 sec
+[07.26 18:55:37] chrome.exe *64 - lh6.googleusercontent.com:443 close, 471 bytes sent, 4693 bytes (4.58 KB) received, lifetime 00:10
+[07.26 17:30:32] chrome.exe *64 - csdnimg.cn:80 error : A connection request was canceled before the completion. 
+[07.26 21:53:01] chrome.exe *64 - api.github.com:443 close, 328 bytes sent, 3642 bytes (3.55 KB) received, lifetime 00:15
+[07.27 09:50:32] chrome.exe *64 - www.youtube.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 18:59:43] chrome.exe *64 - hangouts.google.com:443 close, 13281 bytes (12.9 KB) sent, 19539 bytes (19.0 KB) received, lifetime 04:17
+[10.30 18:00:13] firefox.exe - proxy.cse.cuhk.edu.hk:5070 close, 1212 bytes (1.18 KB) sent, 11440 bytes (11.1 KB) received, lifetime 00:59
+[07.27 05:32:52] chrome.exe *64 - clients4.google.com:443 close, 2302 bytes (2.24 KB) sent, 5187 bytes (5.06 KB) received, lifetime 02:02
+[10.30 18:02:12] firefox.exe - proxy.cse.cuhk.edu.hk:5070 close, 2813 bytes (2.74 KB) sent, 11743 bytes (11.4 KB) received, lifetime 02:02
+[07.27 05:12:56] Dropbox.exe - bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061
+[07.26 21:20:55] chrome.exe *64 - www.googleapis.com:443 close, 1736 bytes (1.69 KB) sent, 1052 bytes (1.02 KB) received, lifetime 04:00
+[10.30 20:44:50] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 2737 bytes (2.67 KB) sent, 1375 bytes (1.34 KB) received, lifetime 00:01
+[10.30 16:49:48] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:17
+[07.26 13:31:09] chrome.exe *64 - www.4399.cn:80 close, 0 bytes sent, 0 bytes received, lifetime 00:21
+[07.26 15:20:54] chrome.exe *64 - 11.client-channel.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:24:03] chrome.exe *64 - assets-cdn.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 16:43:17] chrome.exe *64 - avatars1.githubusercontent.com:443 close, 1145 bytes (1.11 KB) sent, 666 bytes received, lifetime 05:03
+[10.30 21:05:25] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:46:23] QQ.exe - tcpconn3.tencent.com:80 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 17:39:19] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:49:03] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 4496 bytes (4.39 KB) sent, 648 bytes received, lifetime 00:18
+[10.30 17:39:15] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1987 bytes (1.94 KB) sent, 51801 bytes (50.5 KB) received, lifetime 00:01
+[07.26 14:52:30] chrome.exe *64 - www.baidu.com:80 close, 2590 bytes (2.52 KB) sent, 621 bytes received, lifetime 01:06
+[07.26 19:00:47] tencentdl.exe - xf-com-update-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.26 14:30:30] chrome.exe *64 - lh3.googleusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 16:53:24] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 20:40:10] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[07.27 04:19:13] chrome.exe *64 - www.evernote.com:443 close, 2214 bytes (2.16 KB) sent, 5451 bytes (5.32 KB) received, lifetime 04:00
+[07.27 10:22:36] chrome.exe *64 - www.zhihu.com:443 close, 568 bytes sent, 152 bytes received, lifetime 00:18
+[07.26 14:31:31] chrome.exe *64 - cbjs.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:19
+[10.30 16:49:12] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 1590 bytes (1.55 KB) sent, 472 bytes received, lifetime 00:01
+[07.27 09:50:55] chrome.exe *64 - r5---sn-i3b7kn7z.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 17:48:45] QQ.exe - qqmail.tencent.com:80 close, 336 bytes sent, 2854 bytes (2.78 KB) received, lifetime 00:01
+[10.30 20:40:04] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec
+[10.30 16:49:29] chrome.exe - proxy.cse.cuhk.edu.hk:5070 close, 508 bytes sent, 29786 bytes (29.0 KB) received, lifetime <1 sec
+[10.30 21:07:09] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+[10.30 20:40:14] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: .sdef warning for argument '' of command 'can continue previous list' in suite 'Microsoft Word Suite': '4023' is not a valid type name.
+Jul  7 13:42:41 authorMacBook-Pro kernel[0]: ARPT: 770798.478026: framerdy 0x0 bmccmd 3 framecnt 1024
+Jul  3 02:19:59 authorMacBook-Pro kernel[0]: ARPT: 672115.511090: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x00c1000a': four character codes must be four characters long.
+Jul  5 21:48:45 authorMacBook-Pro sandboxd[129] ([10018]): QQ(10018) deny mach-lookup com.apple.networking.captivenetworksupport
+Jul  7 10:05:03 calvisitor-10-105-162-178 kernel[0]: ARPT: 764361.057441: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:9cb8:f7f2:7c03:f956
+Jul  1 11:44:20 calvisitor-10-105-160-95 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  7 08:28:48 calvisitor-10-105-162-178 networkd[195]: nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x4 to 0x8000000000000000
+Jul  2 17:39:27 calvisitor-10-105-163-202 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.WebContent.32564): Path not allowed in target domain: type = pid, path = /System/Library/StagedFrameworks/Safari/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.WebFeedParser.xpc/Contents/MacOS/com.apple.Safari.WebFeedParser error = 147: The specified service did not ship in the requestor's bundle, origin = /System/Library/StagedFrameworks/Safari/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc
+Jul  6 19:04:07 calvisitor-10-105-162-178 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Jul  3 21:30:54 authorMacBook-Pro networkd[195]: __42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc21519 184.105.67.74:443
+Jul  5 01:33:27 calvisitor-10-105-163-10 kernel[0]: en0: channel changed to 1
+Jul  3 06:57:52 authorMacBook-Pro kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Jul  4 10:43:57 calvisitor-10-105-162-105 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  3 15:15:31 calvisitor-10-105-160-237 secd[276]:  SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 "Account identity not set" UserInfo={NSDescription=Account identity not set}
+Jul  8 07:57:11 calvisitor-10-105-162-124 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  7 16:24:43 authorMacBook-Pro QQ[10018]: ############################## _getSysMsgList
+Jul  4 13:02:23 calvisitor-10-105-162-105 com.apple.cts[258]: com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1769 seconds.  Ignoring.
+Jul  2 02:18:39 calvisitor-10-105-163-202 configd[53]: network changed: v4(en0-:10.105.163.202) v6(en0:2607:f140:6000:8:c6b3:1ff:fecd:467f) DNS! Proxy SMB
+Jul  4 19:43:56 calvisitor-10-105-162-105 kernel[0]: Opened file /var/log/SleepWakeStacks.bin, size 172032, extents 1, maxio 2000000 ssd 1
+Jul  6 03:53:08 calvisitor-10-105-160-37 kernel[0]: hibernate_page_list_setall time: 603 ms
+Jul  6 15:30:54 calvisitor-10-105-162-178 kernel[0]: ARPT: 740226.968934: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]
+Jul  7 06:48:46 authorMacBook-Pro corecaptured[37783]: CCFile::captureLogRun() Exiting CCFile::captureLogRun
+Jul  6 19:18:27 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 15002 seconds.  Ignoring.
+Jul  4 05:40:41 airbears2-10-142-110-255 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 192946 seconds.  Ignoring.
+Jul  6 08:33:53 calvisitor-10-105-163-253 Safari[9852]: KeychainGetICDPStatus: keychain: -25300
+Jul  4 06:39:19 calvisitor-10-105-162-105 kernel[0]: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Jul  6 12:59:11 calvisitor-10-105-162-178 kernel[0]: ARPT: 739605.015490: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:cc53:3e31:ccd8:11d4
+Jul  3 04:43:49 authorMacBook-Pro sandboxd[129] ([33056]): com.apple.Addres(33056) deny network-outbound /private/var/run/mDNSResponder
+Jul  1 13:42:41 calvisitor-10-105-160-95 kernel[0]: ARPT: 627141.702095: wl0: MDNS: IPV6 Addr: 2607:f140:6000:8:c6b3:1ff:fecd:467f
+Jul  3 15:46:27 calvisitor-10-105-160-237 kernel[0]: AppleCamIn::wakeEventHandlerThread
+Jul  6 12:01:16 authorMacBook-Pro corecaptured[36918]: CCFile::captureLogRun() Exiting CCFile::captureLogRun
+Jul  1 11:29:32 calvisitor-10-105-160-95 locationd[82]: Location icon should now be in state 'Inactive'
+Jul  7 20:39:28 calvisitor-10-105-160-85 com.apple.WebKit.Networking[9854]: NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9806)
+Jul  4 08:20:51 calvisitor-10-105-162-105 kernel[0]: en0: 802.11d country code set to 'US'.
+Jul  4 10:56:48 calvisitor-10-105-162-105 com.apple.cts[43]: com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 7615 seconds.  Ignoring.
+Jul  7 20:08:13 calvisitor-10-105-160-85 secd[276]:  securityd_xpc_dictionary_handler cloudd[326] copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 "query missing class name" (paramErr: error in user parameter list) UserInfo={NSDescription=query missing class name}
+Jul  5 12:00:39 calvisitor-10-105-160-226 identityservicesd[272]: <IMMacNotificationCenterManager: 0x7ff1b2e00ba0>:   DND Enabled: NO
+Jul  4 23:22:09 calvisitor-10-105-162-105 Microsoft Word[14463]: Cocoa scripting error for '0x03f20026': four character codes must be four characters long.
+Jul  3 20:07:56 calvisitor-10-105-161-225 mdworker[33804]: (ImportBailout.Error:1331) Asked to exit for Diskarb
+Jul  5 00:33:56 calvisitor-10-105-163-10 locationd[82]: PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 "The request timed out." UserInfo={NSUnderlyingError=0x7fb7ed616c80 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 "The request timed out." UserInfo={NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-2102, NSLocalizedDescription=The request timed out.}
+Jul  6 20:46:03 calvisitor-10-105-162-178 GoogleSoftwareUpdateAgent[37316]: 2017-07-06 20:46:03.869 GoogleSoftwareUpdateAgent[37316/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=5e15fbe422c816bef7c133cfffdb516e16923579b9be2dfae4d7d8d211b25017&cup2key=7:780377214"
+Jul  7 04:58:35 calvisitor-10-105-162-178 com.apple.cts[43]: com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 29108 seconds.  Ignoring.
+Jul  6 14:16:06 calvisitor-10-105-162-178 sharingd[30299]: 14:16:06.179 : Scanning mode Contacts Only
+Jul  1 09:19:03 authorMacBook-Pro configd[53]: setting hostname to "authorMacBook-Pro.local"
+Jul  5 00:18:07 authorMacBook-Pro QQ[10018]: button report: 0X80076ED
+Jul  7 07:59:46 calvisitor-10-105-162-178 com.apple.cts[258]: com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 479780 seconds.  Ignoring.
+Jul  7 07:16:35 authorMacBook-Pro configd[53]: setting hostname to "authorMacBook-Pro.local"
+Jul  3 21:30:39 authorMacBook-Pro QQ[10018]: tcp_connection_handle_connect_conditions_bad 21503 failed: 3 - No network route
+Jul  4 11:42:12 calvisitor-10-105-162-105 kernel[0]: [HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
+- 1120956527 2005.07.09 R37-M1-N7-C:J04-U11 2005-07-09-17.48.47.234245 R37-M1-N7-C:J04-U11 RAS KERNEL INFO generating core.8531
+- 1119715908 2005.06.25 R00-M1-NA-C:J14-U01 2005-06-25-09.11.48.847599 R00-M1-NA-C:J14-U01 RAS KERNEL INFO generating core.62468
+- 1133454591 2005.12.01 R15-M0-N3-C:J09-U11 2005-12-01-08.29.51.750461 R15-M0-N3-C:J09-U11 RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+- 1118765676 2005.06.14 R16-M1-N2-C:J07-U01 2005-06-14-09.14.36.498843 R16-M1-N2-C:J07-U01 RAS KERNEL FATAL instruction address: 0x00004ed8
+- 1120969527 2005.07.09 R25-M0-N9-C:J11-U01 2005-07-09-21.25.27.506107 R25-M0-N9-C:J11-U01 RAS KERNEL INFO generating core.28329
+- 1127380615 2005.09.22 R63-M1-NA-C:J14-U11 2005-09-22-02.16.55.345135 R63-M1-NA-C:J14-U11 RAS KERNEL INFO total of 1 ddr error(s) detected and corrected
+- 1130251536 2005.10.25 R46-M0-NC-I:J18-U11 2005-10-25-07.45.36.124897 R46-M0-NC-I:J18-U11 RAS APP FATAL ciod: Error loading allreduce_int_V1R1.rts: invalid or missing program image, No such file or directory
+KERNDTLB 1118552553 2005.06.11 R30-M0-N9-C:J16-U01 2005-06-11-22.02.33.858708 R30-M0-N9-C:J16-U01 RAS KERNEL FATAL data TLB error interrupt
+- 1120932709 2005.07.09 R20-M1-N2-C:J10-U11 2005-07-09-11.11.49.090815 R20-M1-N2-C:J10-U11 RAS KERNEL INFO generating core.38077
+- 1119803468 2005.06.26 R36-M1-ND-C:J16-U11 2005-06-26-09.31.08.715435 R36-M1-ND-C:J16-U11 RAS KERNEL INFO data store interrupt caused by dcbf.........0
+KERNSTOR 1118765511 2005.06.14 R06-M0-N7-C:J08-U01 2005-06-14-09.11.51.127157 R06-M0-N7-C:J08-U01 RAS KERNEL FATAL data storage interrupt
+- 1119402454 2005.06.21 R22-M0-N4-I:J18-U11 2005-06-21-18.07.34.337232 R22-M0-N4-I:J18-U11 RAS APP FATAL ciod: Error loading ./runtime_malloc: invalid or missing program image, No such file or directory
+- 1117989601 2005.06.05 R32-M0-N2-C:J15-U01 2005-06-05-09.40.01.191177 R32-M0-N2-C:J15-U01 RAS KERNEL INFO generating core.1524
+- 1131059158 2005.11.03 R67-M0-N8-C:J02-U01 2005-11-03-15.05.58.736742 R67-M0-N8-C:J02-U01 RAS KERNEL INFO 640404 floating point alignment exceptions
+- 1133455642 2005.12.01 R23-M0-ND-C:J08-U11 2005-12-01-08.47.22.963148 R23-M0-ND-C:J08-U11 RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+- 1120934747 2005.07.09 R12-M0-N3-C:J02-U01 2005-07-09-11.45.47.078028 R12-M0-N3-C:J02-U01 RAS KERNEL INFO generating core.30603
+- 1121313853 2005.07.13 R36-M1-N9-C:J17-U01 2005-07-13-21.04.13.288105 R36-M1-N9-C:J17-U01 RAS KERNEL INFO generating core.15648
+- 1122166538 2005.07.23 R15-M1-N3-C:J11-U11 2005-07-23-17.55.38.692000 R15-M1-N3-C:J11-U11 RAS KERNEL INFO 5 floating point alignment exceptions
+- 1133925845 2005.12.06 R36-M0-N2-C:J05-U01 2005-12-06-19.24.05.504553 R36-M0-N2-C:J05-U01 RAS KERNEL INFO Kernel detected 3830884 integer alignment exceptions (3830877) iar 0x00544ea8, dear 0x01fc1ba0 (3830878) iar 0x00544eb8, dear 0x01fc1bc0 (3830879) iar 0x00544ea8, dear 0x01fc1be0 (3830880) iar 0x00544eb8, dear 0x01fc1c00 (3830881) iar 0x00544ee0, dear 0x01fc1c20 (3830882) iar 0x00544ef0, dear 0x01fc1c40 (3830883) iar 0x00544ee0, dear 0x01fc1c60 (3830884) iar 0x00544ef0, dear 0x01fc1c80
+- 1121598391 2005.07.17 R25-M1-NB-C:J11-U01 2005-07-17-04.06.31.496101 R25-M1-NB-C:J11-U01 RAS KERNEL INFO generating core.46425
+- 1119725305 2005.06.25 R27-M1-N9-C:J17-U11 2005-06-25-11.48.25.313227 R27-M1-N9-C:J17-U11 RAS KERNEL INFO generating core.47736
+- 1125223882 2005.08.28 R57-M0-N1-C:J16-U01 2005-08-28-03.11.22.587537 R57-M0-N1-C:J16-U01 RAS KERNEL INFO iar 00149f88 dear 0099be48
+- 1121311390 2005.07.13 R37-M0-NC-C:J17-U11 2005-07-13-20.23.10.257361 R37-M0-NC-C:J17-U11 RAS KERNEL INFO generating core.5428
+- 1118770646 2005.06.14 R27-M1-N9-C:J11-U11 2005-06-14-10.37.26.925212 R27-M1-N9-C:J11-U11 RAS KERNEL FATAL machine state register: 0x00002000
+KERNSTOR 1118709549 2005.06.13 R15-M0-N9-C:J05-U11 2005-06-13-17.39.09.591793 R15-M0-N9-C:J05-U11 RAS KERNEL FATAL data storage interrupt
+- 1117979227 2005.06.05 R01-M1-N7-C:J04-U11 2005-06-05-06.47.07.157021 R01-M1-N7-C:J04-U11 RAS KERNEL INFO generating core.8275
+- 1119725245 2005.06.25 R33-M1-NE-C:J11-U01 2005-06-25-11.47.25.436889 R33-M1-NE-C:J11-U01 RAS KERNEL INFO generating core.18261
+- 1134161388 2005.12.09 R07-M0-N8-I:J18-U11 2005-12-09-12.49.48.361835 R07-M0-N8-I:J18-U11 RAS APP FATAL ciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1501./hpl_DD: invalid or missing program image, No such file or directory
+- 1133455643 2005.12.01 R22-M0-N5-C:J06-U11 2005-12-01-08.47.23.541583 R22-M0-N5-C:J06-U11 RAS KERNEL INFO 0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+- 1121495798 2005.07.15 R37-M0-N5-C:J02-U11 2005-07-15-23.36.38.092419 R37-M0-N5-C:J02-U11 RAS KERNEL INFO generating core.44723
+- 1135669430 2005.12.26 R37-M1-NC-C:J02-U11 2005-12-26-23.43.50.733716 R37-M1-NC-C:J02-U11 RAS KERNEL INFO instruction cache parity error corrected
+- 1118771330 2005.06.14 R26-M1-N6-C:J05-U01 2005-06-14-10.48.50.649332 R26-M1-N6-C:J05-U01 RAS KERNEL FATAL floating pt ex mode 1 enable......0
+- 1120148771 2005.06.30 R33-M1-N7-C:J05-U11 2005-06-30-09.26.11.626795 R33-M1-N7-C:J05-U11 RAS KERNEL INFO generating core.8691
+- 1121006797 2005.07.10 R25-M1-N7-C:J13-U01 2005-07-10-07.46.37.300865 R25-M1-N7-C:J13-U01 RAS KERNEL INFO generating core.4329
+- 1121901493 2005.07.20 R05-M1-NC-C:J14-U11 2005-07-20-16.18.13.877286 R05-M1-NC-C:J14-U11 RAS KERNEL INFO 8 floating point alignment exceptions
+KERNSTOR 1118765360 2005.06.14 R04-M0-ND-C:J15-U01 2005-06-14-09.09.20.459609 R04-M0-ND-C:J15-U01 RAS KERNEL FATAL data storage interrupt
+KERNSTOR 1118765370 2005.06.14 R01-M1-N6-C:J15-U11 2005-06-14-09.09.30.138103 R01-M1-N6-C:J15-U11 RAS KERNEL FATAL data storage interrupt
+- 1121313915 2005.07.13 R33-M0-NA-C:J05-U11 2005-07-13-21.05.15.201453 R33-M0-NA-C:J05-U11 RAS KERNEL INFO generating core.22967
+- 1118112603 2005.06.06 R22-M0-N0-C:J08-U11 2005-06-06-19.50.03.669394 R22-M0-N0-C:J08-U11 RAS KERNEL INFO generating core.430
+- 1121707363 2005.07.18 R26-M0-NC-C:J07-U11 2005-07-18-10.22.43.700974 R26-M0-NC-C:J07-U11 RAS KERNEL INFO generating core.14142
+- 1118765858 2005.06.14 R11-M0-N7-C:J10-U01 2005-06-14-09.17.38.154403 R11-M0-N7-C:J10-U01 RAS KERNEL FATAL instruction address: 0x00004ed8
+- 1121496041 2005.07.15 R17-M1-N6-C:J04-U11 2005-07-15-23.40.41.176362 R17-M1-N6-C:J04-U11 RAS KERNEL INFO generating core.8879
+- 1121901551 2005.07.20 R17-M0-N4-C:J06-U01 2005-07-20-16.19.11.825942 R17-M0-N4-C:J06-U01 RAS KERNEL INFO 8 floating point alignment exceptions
+- 1132586451 2005.11.21 R26-M0-N0-I:J18-U11 2005-11-21-07.20.51.661738 R26-M0-N0-I:J18-U11 RAS KERNEL INFO MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+- 1118810502 2005.06.14 R02-M1-N0-C:J12-U11 2005-06-14-21.41.42.351016 R02-M1-N0-C:J12-U11 RAS KERNEL INFO instruction cache parity error corrected
+- 1120957404 2005.07.09 R05-M1-N2-C:J06-U01 2005-07-09-18.03.24.488333 R05-M1-N2-C:J06-U01 RAS KERNEL INFO generating core.2790
+- 1119803693 2005.06.26 R00-M1-N3-C:J11-U01 2005-06-26-09.34.53.251232 R00-M1-N3-C:J11-U01 RAS KERNEL INFO program interrupt: unimplemented operation..0
+KERNTERM 1132021523 2005.11.14 R46-M1-NE-C:J14-U11 2005-11-14-18.25.23.269634 R46-M1-NE-C:J14-U11 RAS KERNEL FATAL rts: kernel terminated for reason 1004
+- 1131057913 2005.11.03 R65-M1-NB-C:J14-U01 2005-11-03-14.45.13.427392 R65-M1-NB-C:J14-U01 RAS KERNEL INFO iar 00106228 dear 0244c1ec
+- 1123914638 2005.08.12 R24-M0-N0-I:J18-U01 2005-08-12-23.30.38.435583 R24-M0-N0-I:J18-U01 RAS APP FATAL ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error
+- 1131567144 2005.11.09 tbird-admin1 Nov 9 12:12:24 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131566479 2005.11.09 bn431 Nov 9 12:01:19 bn431/bn431 ntpd[28723]: synchronized to 10.100.20.250, stratum 3
+- 1131566567 2005.11.09 bn112 Nov 9 12:02:47 bn112/bn112 ntpd[22405]: synchronized to 10.100.20.250, stratum 3
+- 1131566625 2005.11.09 cn196 Nov 9 12:03:45 cn196/cn196 ntpd[20345]: synchronized to 10.100.20.250, stratum 3
+- 1131566931 2005.11.09 bn138 Nov 9 12:08:51 bn138/bn138 ntpd[10870]: synchronized to 10.100.20.250, stratum 3
+- 1131567240 2005.11.09 tbird-admin1 Nov 9 12:14:00 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A7] datasource
+- 1131566575 2005.11.09 tbird-admin1 Nov 9 12:02:55 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D6] datasource
+- 1131566731 2005.11.09 tbird-admin1 Nov 9 12:05:31 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B7] datasource
+- 1131566488 2005.11.09 tbird-sm1 Nov 9 12:01:28 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131566525 2005.11.09 aadmin4 Nov 9 12:02:05 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1131566908 2005.11.09 tbird-admin1 Nov 9 12:08:28 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_D5] datasource
+- 1131566913 2005.11.09 tbird-admin1 Nov 9 12:08:33 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1131566522 2005.11.09 tbird-admin1 Nov 9 12:02:02 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131567225 2005.11.09 tbird-admin1 Nov 9 12:13:45 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131566878 2005.11.09 tbird-admin1 Nov 9 12:07:58 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C5] datasource
+- 1131566496 2005.11.09 cn980 Nov 9 12:01:36 cn980/cn980 ntpd[19676]: synchronized to 10.100.20.250, stratum 3
+- 1131566863 2005.11.09 cn913 Nov 9 12:07:43 cn913/cn913 ntpd[23974]: synchronized to 10.100.20.250, stratum 3
+- 1131567081 2005.11.09 tbird-admin1 Nov 9 12:11:21 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B2] datasource
+- 1131566556 2005.11.09 tbird-admin1 Nov 9 12:02:36 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A8] datasource
+- 1131566637 2005.11.09 tbird-admin1 Nov 9 12:03:57 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: RRD_update (/var/lib/ganglia/rrds/C Nodes/cn304/pkts_out.rrd): illegal attempt to update using time 1131563037 when last update time is 1131563037 (minimum one second step)
+- 1131567282 2005.11.09 tbird-sm1 Nov 9 12:14:42 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 vesafb: probe of vesafb0 failed with error -6
+- 1131566687 2005.11.09 bn424 Nov 9 12:04:47 bn424/bn424 ntpd[30101]: synchronized to 10.100.20.250, stratum 3
+- 1131566786 2005.11.09 tbird-admin1 Nov 9 12:06:26 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B8] datasource
+- 1131566461 2005.11.09 dn73 Nov 9 12:01:01 dn73/dn73 crond(pam_unix)[2917]: session opened for user root by (uid=0)
+- 1131566501 2005.11.09 aadmin1 Nov 9 12:01:41 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1131566549 2005.11.09 tbird-admin1 Nov 9 12:02:29 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B8] datasource
+- 1131566800 2005.11.09 tbird-admin1 Nov 9 12:06:40 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C2] datasource
+- 1131567316 2005.11.09 tbird-admin1 Nov 9 12:15:16 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_A6] datasource
+- 1131567211 2005.11.09 tbird-admin1 Nov 9 12:13:31 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B2] datasource
+- 1131567212 2005.11.09 tbird-admin1 Nov 9 12:13:32 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131566461 2005.11.09 dn73 Nov 9 12:01:01 dn73/dn73 crond(pam_unix)[2917]: session closed for user root
+- 1131567324 2005.11.09 tbird-sm1 Nov 9 12:15:24 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131567202 2005.11.09 tbird-sm1 Nov 9 12:13:22 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131566636 2005.11.09 bn316 Nov 9 12:03:56 bn316/bn316 ntpd[29439]: synchronized to 10.100.22.250, stratum 3
+- 1131566794 2005.11.09 tbird-admin1 Nov 9 12:06:34 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C8] datasource
+- 1131567331 2005.11.09 cn918 Nov 9 12:15:31 cn918/cn918 ntpd[29960]: synchronized to 10.100.22.250, stratum 3
+- 1131566761 2005.11.09 bn19 Nov 9 12:06:01 bn19/bn19 ntpd[22830]: synchronized to 10.100.18.250, stratum 3
+- 1131566924 2005.11.09 tbird-admin1 Nov 9 12:08:44 local@tbird-admin1 ntpd[1815]: synchronized to LOCAL(0), stratum 10
+- 1131567032 2005.11.09 tbird-admin1 Nov 9 12:10:32 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_B3] datasource
+- 1131567254 2005.11.09 tbird-sm1 Nov 9 12:14:14 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+- 1131566562 2005.11.09 bn645 Nov 9 12:02:42 bn645/bn645 ntpd[23720]: synchronized to 10.100.22.250, stratum 3
+- 1131567043 2005.11.09 tbird-admin1 Nov 9 12:10:43 local@tbird-admin1 IOAPIC[0]: apic_id 8, version 32, address 0xfec00000, GSI 0-23
+- 1131567188 2005.11.09 cn103 Nov 9 12:13:08 cn103/cn103 ntpd[19549]: synchronized to 10.100.18.250, stratum 3
+- 1131567104 2005.11.09 tbird-sm1 Nov 9 12:11:44 src@tbird-sm1 ib_sm.x[24904]: [ib_sm_sweep.c:1482]: No configuration change required
+- 1131566834 2005.11.09 tbird-admin1 Nov 9 12:07:14 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C1] datasource
+- 1131566967 2005.11.09 tbird-admin1 Nov 9 12:09:27 local@tbird-admin1 /apps/x86_64/system/ganglia-3.0.1/sbin/gmetad[1682]: data_thread() got not answer from any [Thunderbird_C6] datasource
+- 1131567270 2005.11.09 cn518 Nov 9 12:14:30 cn518/cn518 ntpd[15606]: synchronized to 10.100.20.250, stratum 3
+- 1131566461 2005.11.09 dn731 Nov 9 12:01:01 dn731/dn731 crond[2917]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566527 2005.11.09 aadmin4 Nov 9 12:02:07 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+17/06/09 20:10:55 INFO python.PythonRunner: Times: total = 39, boot = -90, init = 129, finish = 0
+17/06/09 20:11:08 INFO spark.CacheManager: Partition rdd_42_22 not found, computing it
+17/06/09 20:11:10 INFO broadcast.TorrentBroadcast: Reading broadcast variable 39 took 716 ms
+17/06/09 20:10:47 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/06/09 20:10:55 INFO storage.BlockManager: Found block rdd_2_3 locally
+17/06/09 20:11:10 INFO python.PythonRunner: Times: total = 42, boot = 19, init = 22, finish = 1
+17/06/09 20:10:58 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1158
+17/06/09 20:11:07 INFO python.PythonRunner: Times: total = 60, boot = -8772, init = 8827, finish = 5
+17/06/09 20:11:10 INFO storage.BlockManager: Found block rdd_42_36 locally
+17/06/09 20:10:58 INFO storage.MemoryStore: Block broadcast_34 stored as values in memory (estimated size 77.4 KB, free 593.1 KB)
+17/06/09 20:10:53 INFO executor.Executor: Running task 3.0 in stage 7.0 (TID 318)
+17/06/09 20:11:08 INFO python.PythonRunner: Times: total = 58, boot = 13, init = 40, finish = 5
+17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_17_piece0 stored as bytes in memory (estimated size 5.7 KB, free 438.5 KB)
+17/06/09 20:10:56 INFO storage.BlockManager: Found block rdd_2_1 locally
+17/06/09 20:11:08 INFO python.PythonRunner: Times: total = 38, boot = 18, init = 20, finish = 0
+17/06/09 20:10:57 INFO executor.Executor: Finished task 40.0 in stage 24.0 (TID 1125). 2364 bytes result sent to driver
+17/06/09 20:11:10 INFO storage.BlockManager: Found block rdd_42_27 locally
+17/06/09 20:10:54 INFO storage.MemoryStore: Block broadcast_19_piece0 stored as bytes in memory (estimated size 5.4 KB, free 469.4 KB)
+17/06/09 20:11:10 INFO executor.Executor: Finished task 4.0 in stage 29.0 (TID 1324). 2128 bytes result sent to driver
+17/06/09 20:11:10 INFO executor.Executor: Running task 16.0 in stage 29.0 (TID 1336)
+17/06/09 20:10:48 INFO executor.Executor: Finished task 4.0 in stage 0.0 (TID 4). 2703 bytes result sent to driver
+17/06/09 20:10:56 INFO storage.BlockManager: Found block rdd_26_0 locally
+17/06/09 20:11:08 INFO executor.Executor: Finished task 4.0 in stage 27.0 (TID 1244). 2685 bytes result sent to driver
+17/06/09 20:11:09 INFO storage.BlockManager: Found block rdd_42_12 locally
+17/06/09 20:10:55 INFO storage.BlockManager: Found block rdd_2_1 locally
+17/06/09 20:10:54 INFO python.PythonRunner: Times: total = 41, boot = 16, init = 25, finish = 0
+17/06/09 20:11:08 INFO python.PythonRunner: Times: total = 53, boot = 15, init = 33, finish = 5
+17/06/09 20:11:07 INFO storage.MemoryStore: Block broadcast_37 stored as values in memory (estimated size 8.8 KB, free 500.9 KB)
+17/06/09 20:10:54 INFO storage.MemoryStore: Block rdd_16_3 stored as bytes in memory (estimated size 232.0 B, free 386.8 KB)
+17/06/09 20:11:10 INFO executor.Executor: Running task 11.0 in stage 29.0 (TID 1331)
+17/06/09 20:10:54 INFO python.PythonRunner: Times: total = 43, boot = -85, init = 127, finish = 1
+17/06/09 20:11:10 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1302
+17/06/09 20:10:57 INFO python.PythonRunner: Times: total = 39, boot = -397, init = 436, finish = 0
+17/06/09 20:11:08 INFO executor.Executor: Running task 4.0 in stage 27.0 (TID 1244)
+17/06/09 20:10:56 INFO executor.Executor: Running task 4.0 in stage 19.0 (TID 799)
+17/06/09 20:11:08 INFO storage.BlockManager: Found block rdd_42_0 locally
+17/06/09 20:11:10 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1309
+17/06/09 20:11:08 INFO storage.BlockManager: Found block rdd_42_1 locally
+17/06/09 20:10:59 INFO output.FileOutputCommitter: Saved output of task 'attempt_201706092018_0025_m_000000_1166' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000000
+17/06/09 20:11:10 INFO executor.Executor: Finished task 9.0 in stage 29.0 (TID 1329). 2128 bytes result sent to driver
+17/06/09 20:10:41 INFO Remoting: Starting remoting
+17/06/09 20:10:54 INFO storage.BlockManager: Found block rdd_2_1 locally
+17/06/09 20:10:56 INFO python.PythonRunner: Times: total = 38, boot = 23, init = 15, finish = 0
+17/06/09 20:11:11 INFO storage.BlockManager: Found block rdd_42_26 locally
+17/06/09 20:11:08 INFO executor.Executor: Running task 14.0 in stage 26.0 (TID 1214)
+17/06/09 20:11:08 INFO executor.Executor: Running task 17.0 in stage 26.0 (TID 1217)
+17/06/09 20:11:09 INFO python.PythonRunner: Times: total = 39, boot = 13, init = 25, finish = 1
+17/06/09 20:11:09 INFO executor.Executor: Finished task 10.0 in stage 27.0 (TID 1250). 2667 bytes result sent to driver
+17/06/09 20:11:10 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1337
+17/06/09 20:11:10 INFO executor.Executor: Finished task 31.0 in stage 28.0 (TID 1311). 2087 bytes result sent to driver
+342193 node-244 node temperature 1083879601 1 ambient=32
+455240 node-10 node temperature 1099408230 1 ambient=30
+344357 node-88 node status 1084269621 0 configured out
+2588743 Interconnect-0N03 switch_module error 1074243064 1 Linkerror event interval expired
+177328 Interconnect-0N01 switch_module error 1077894231 1 Linkerror event interval expired
+2597376 Interconnect-1N00 switch_module error 1074290438 1 Linkerror event interval expired
+360067 node-96 node status 1085056650 -1 configured out
+368988 node-96 node status 1085567825 -1 configured out
+369020 node-160 node status 1085567825 -1 configured out
+203897 Interconnect-0N01 switch_module error 1131386680 1 link errors remain current
+256 Interconnect-1N01 switch_module error 1075463047 1 Linkerror event interval expired
+235379 Interconnect-0N02 switch_module error 1079014242 1 Linkerror event interval expired
+110554 node-174 node status 1111067067 1 not responding
+424634 node-210 node status 1095338588 1 configured out
+303523 gige3 gige temperature 1135051042 1 normal
+173860 Interconnect-0N00 switch_module error 1077892961 1 Linkerror event interval expired
+465923 gige7 gige temperature 1145638393 1 warning
+208761 node-147 action start 1116601359 1 boot  (command 3615)
+313169 node-176 node temperature 1122334380 1 ambient=35
+2597017 Interconnect-1N00 switch_module error 1074290313 1 Linkerror event interval expired
+2614352 Interconnect-1N01 switch_module error 1074709464 1 Linkerror event interval expired
+110887 node-D7 clusterfilesystem clusterfilesystem.no_server 1111067897 1 ClusterFileSystem: There is no server for ServerFileSystem domain storage1311
+257478 node-30 unix.hw net.niff.up 1079070455 1 NIFF: node node-30 has detected an available network connection on network 10.128.0.0 via interface ee0
+2558415 Interconnect-1T02 switch_module error 1073119551 1 Link error
+416347 gige6 gige temperature 1093125020 1 normal
+289347 Interconnect-1N01 switch_module error 1080807214 1 Linkerror event interval expired
+369970 full partition status 1085682780 1 blocked
+32520 gige7 gige temperature 1125430919 1 normal
+72165 node-D3 clusterfilesystem clusterfilesystem.not_served 1127045031 1 ClusterFileSystem: ServerFileSystem domain root1_tmp_backup is no longer served by node node-96
+243687 Interconnect-0N00 switch_module fan 1132558950 1 Fan speeds ( 3552 3534 3391 **** 3515 3479 )
+24181 node-247 node status 1100788549 1 running
+414569 Interconnect-1N02 switch_module error 1142843014 1 link errors remain current
+479981 gige4 gige temperature 1146058156 1 warning
+90216 node-241 node temperature 1109539320 1 ambient=28
+106635 Interconnect-1N01 switch_module error 1077740032 1 Linkerror event interval expired
+277298 full partition status 1120076193 1 running
+37555 node-D6 clusterfilesystem clusterfilesystem.not_served 1076533718 1 ClusterFileSystem: ServerFileSystem domain root5_domain is no longer served by node node-196
+276921 gige6 gige temperature 1119953528 1 warning
+223805 Interconnect-0N00 switch_module error 1078499737 1 Linkerror event interval expired
+146876 gige5 gige temperature 1112544988 1 warning
+2567354 node-147 node status 1074098611 1 not responding
+361177 node-142 unix.hw net.niff.up 1085071269 1 NIFF: node node-142 has detected an available network connection on network 10.128.0.0 via interface ee0
+225744 Interconnect-1N02 switch_module error 1078594479 1 Linkerror event interval expired
+244823 node-202 unix.hw net.niff.up 1118546476 1 NIFF: node node-202 has detected an available network connection on network 5.5.224.0 via interface alt0
+147394 Interconnect-0N00 switch_module temphigh 1129812510 1 Temperature (41C) exceeds warning threshold
+102593 Interconnect-1N02 switch_module error 1077735915 1 Linkerror event interval expired
+285855 Interconnect-1T00 switch_module bcast-error 1080298218 1 Link in reset
+2597772 Interconnect-1N02 switch_module error 1074290544 1 Linkerror event interval expired
+114954 node-206 node status 1077744705 1 running
+435317 gige7 gige temperature 1096178141 1 normal
+Jul  9 12:59:44 combo ftpd[23210]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005 
+Jul 21 09:04:41 combo ftpd[5028]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005 
+Jul 10 04:04:46 combo logrotate: ALERT exited abnormally with [1]
+Jul  4 19:16:01 combo sshd(pam_unix)[3402]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root
+Jun 15 14:53:35 combo sshd(pam_unix)[23671]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com 
+Jul  6 18:00:56 combo ftpd[9766]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005 
+Jul 20 04:11:27 combo su(pam_unix)[1595]: session opened for user news by (uid=0)
+Jun 20 03:40:59 combo ftpd[8830]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005 
+Jul 10 16:01:57 combo sshd(pam_unix)[30552]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root
+Jul 24 13:46:34 combo ftpd[22668]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005 
+Jun 30 20:53:06 combo klogind[19266]: Kerberos authentication failed 
+Jul 22 19:29:09 combo ftpd[13157]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005 
+Jun 16 04:16:17 combo su(pam_unix)[25548]: session opened for user news by (uid=0)
+Jun 28 21:42:46 combo sshd(pam_unix)[12753]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.115.206.155 
+Jul  7 23:09:45 combo ftpd[14115]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005 
+Jul 10 07:24:24 combo ftpd[29721]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005 
+Jun 24 04:05:35 combo su(pam_unix)[26938]: session closed for user cyrus
+Jul 15 23:42:43 combo ftpd[15340]: connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005 
+Jun 22 04:30:55 combo sshd(pam_unix)[17125]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net 
+Jul 15 01:03:48 combo sshd(pam_unix)[12629]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root
+Jul  7 04:10:44 combo su(pam_unix)[12193]: session opened for user news by (uid=0)
+Jun 30 20:53:04 combo klogind[19269]: Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code 
+Jul  9 12:59:44 combo ftpd[23213]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005 
+Jul  3 10:05:25 combo ftpd[32063]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005 
+Jul 14 15:01:03 combo sshd(pam_unix)[11725]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202-132-40-29.adsl.ttn.net  user=root
+Jul  9 04:10:12 combo su(pam_unix)[22368]: session closed for user news
+Jun 18 02:08:11 combo ftpd[31281]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005 
+Jul  6 18:00:57 combo ftpd[9779]: connection from 211.72.151.162 () at Wed Jul  6 18:00:57 2005 
+Jul 10 07:24:24 combo ftpd[29722]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005 
+Jul 27 14:41:54 combo network: Bringing up loopback interface:  succeeded 
+Jul 24 04:20:42 combo logrotate: ALERT exited abnormally with [1]
+Jun 28 08:10:29 combo sshd(pam_unix)[11509]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93  user=root
+Jun 16 04:16:18 combo su(pam_unix)[25548]: session closed for user news
+Jun 30 22:16:32 combo sshd(pam_unix)[19436]: session opened for user test by (uid=509)
+Jul  5 13:36:36 combo sshd(pam_unix)[6558]: check pass; user unknown
+Jun 30 20:16:26 combo sshd(pam_unix)[19209]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root
+Jul  1 07:57:30 combo ftpd[21939]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005 
+Jun 18 01:30:59 combo sshd(pam_unix)[31206]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net 
+Jul 27 14:41:59 combo kernel: Transparent bridge - 0000:00:1e.0
+Jul 18 23:01:26 combo sshd(pam_unix)[28983]: check pass; user unknown
+Jul 18 03:26:48 combo ftpd[25632]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005 
+Jul 22 09:27:24 combo ftpd[12298]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005 
+Jul 17 15:09:16 combo ftpd[24483]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:16 2005 
+Jun 23 01:41:32 combo sshd(pam_unix)[18967]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest
+Jul  9 12:59:44 combo ftpd[23221]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005 
+Jul 13 17:22:28 combo sshd(pam_unix)[8113]: session opened for user test by (uid=509)
+Jul 10 16:02:21 combo sshd(pam_unix)[30592]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root
+Jun 16 04:10:23 combo su(pam_unix)[25178]: session closed for user cyrus
+Jul  3 23:16:09 combo ftpd[773]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005 
+Jul 10 13:17:22 combo ftpd[30291]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005 
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:07:17.507 2931 INFO nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 0
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:10:38.056 25775 INFO nova.metadata.wsgi.server [req-3521b636-65e4-4a20-8eab-d4cc01f20eff - - - - -] 10.11.21.137,10.11.10.1 "GET /latest/meta-data/ HTTP/1.1" status: 200 len: 328 time: 0.2276061
+nova-scheduler.log.1.2017-05-16_13:53:08 2017-05-16 00:07:00.405 25998 INFO nova.scheduler.host_manager [req-27843cc7-d4d3-4583-b8dc-c2b484e85dc8 - - - - -] The instance sync for host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match. Re-created its InstanceList.
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:07:57.076 25746 INFO nova.api.openstack.wsgi [req-acc5bb0f-42fe-4bbc-ac8b-0bace2d3b906 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] HTTP exception thrown: No instances found for any event
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:06:22.689 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] During sync_power_state the instance has a pending task (spawning). Skip.
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:02:52.572 25746 INFO nova.osapi_compute.wsgi.server [req-08190bc9-9cd6-4d14-a825-06421a17de6c 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2684422
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:01:01.033 25746 INFO nova.osapi_compute.wsgi.server [req-a9b72c1a-65a9-44a5-bcb3-db8c2aa6d404 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1874 time: 0.3479111
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:07:45.371 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:09:04.691 25746 INFO nova.osapi_compute.wsgi.server [req-60b39154-68cf-4345-85ba-a56c897b7d66 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2642689
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:10:12.623 25746 INFO nova.osapi_compute.wsgi.server [req-d86ac496-7a40-4c30-8075-1217fca754d3 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1759 time: 0.2584841
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:03:40.655 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:01:20.752 25746 INFO nova.osapi_compute.wsgi.server [req-aeff33d0-dd58-4d76-bfec-d25b843a0521 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2706490
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:08:06.960 2931 INFO nova.compute.claims [req-868a5460-dbb6-416b-b4c4-a98abae6c847 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:06:49.771 25746 INFO nova.osapi_compute.wsgi.server [req-e48f0708-5059-4eb3-8742-55fb03247cd9 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2630441
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:01:02.141 25746 INFO nova.osapi_compute.wsgi.server [req-cd5e40af-8fe5-4bd7-ae38-b5fb546d31ff 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 211 time: 0.1034541
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:04:59.977 25746 INFO nova.osapi_compute.wsgi.server [req-5f1c2027-e1b0-43f1-b6d3-694f483a69be 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2732208
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:42.001 25746 INFO nova.osapi_compute.wsgi.server [req-7510d7d3-bc52-4241-93ea-b03036f20981 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2748721
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:07:03.927 25743 INFO nova.osapi_compute.wsgi.server [req-543e2dd0-b199-4751-933a-2b0e5a6d48b5 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" status: 200 len: 380 time: 0.0965390
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:02:20.367 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:04:07.061 25746 INFO nova.osapi_compute.wsgi.server [req-5de95d80-f71b-490c-8d14-92b6f68286f6 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2795429
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:04:13.503 25746 INFO nova.osapi_compute.wsgi.server [req-ea3a5f31-5950-484f-be55-67a9df287f2e 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.4113560
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:02:04.277 25746 INFO nova.osapi_compute.wsgi.server [req-d4353962-c926-4d9c-87ea-4cc0834b395a 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2747011
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:13:46.412 25746 INFO nova.osapi_compute.wsgi.server [req-3f4867ee-5402-4e7f-bf24-41c58b20e80b 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2732630
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:04:38.992 25746 INFO nova.osapi_compute.wsgi.server [req-d82fab16-60f8-4c9f-bde8-f362f57bdd40 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1" status: 202 len: 733 time: 0.4953768
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:08:24.448 25746 INFO nova.osapi_compute.wsgi.server [req-4beb51c0-21fe-4609-b459-ffc91c724c5c 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2611339
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:11:12.315 2931 INFO nova.compute.manager [req-4b4dd551-26d8-48e2-bd52-91793d2157bc 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] Took 21.08 seconds to build instance.
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:06:43.185 25746 INFO nova.osapi_compute.wsgi.server [req-05bc2099-282b-4260-9a9c-1fa4f55e65bf 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1583 time: 0.1909380
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:07:33.184 25746 INFO nova.osapi_compute.wsgi.server [req-2e32a4b6-281d-4b23-8783-e23e909271ae 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2499630
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:03:57.417 25746 INFO nova.osapi_compute.wsgi.server [req-61ab7fb1-ea13-4170-9529-ed2c20312112 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1583 time: 0.1983159
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:06:23.638 25746 INFO nova.osapi_compute.wsgi.server [req-dfef2312-3d98-4d1a-bbb9-65069ce80588 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1910 time: 0.2610891
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:09:40.100 25746 INFO nova.osapi_compute.wsgi.server [req-493775eb-1dd2-40ef-b924-0bf937b83836 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2762039
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:05:49.131 2931 INFO nova.virt.libvirt.driver [req-31453286-67b1-4c86-89bc-445a668da2d9 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Deletion of /var/lib/nova/instances/43204226-2f87-4da7-b7ee-4d20cc66e846_del complete
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:01:12.999 2931 INFO nova.compute.claims [req-97fcea79-42f7-4241-9b9e-63fe193c1929 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] memory limit: 96258.00 MB, free: 95746.00 MB
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:11:08.685 25746 INFO nova.osapi_compute.wsgi.server [req-a2cd93b2-1e15-4277-91c3-f32e5949210b 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2514729
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:06:28.943 25793 INFO nova.metadata.wsgi.server [req-875ce34e-697a-49a6-83d1-d50427627932 - - - - -] 10.11.21.131,10.11.10.1 "GET /openstack/2012-08-10/meta_data.json HTTP/1.1" status: 200 len: 264 time: 0.2973430
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:06:22.540 25743 INFO nova.api.openstack.compute.server_external_events [req-5825bf9a-4201-4b20-a68a-f3a7e1addf40 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] Creating event network-vif-plugged:8b683414-2896-4251-aa05-980752c9b9b3 for instance fecdd5a9-3ca0-4c82-9336-63b7774f738e
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:04:10.117 25746 INFO nova.osapi_compute.wsgi.server [req-1451b9ac-5cf6-4d69-a2e1-52175b593775 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2634912
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:11:44.261 25746 INFO nova.osapi_compute.wsgi.server [req-54b8381a-ee9b-4e94-a9dc-53762e6f6f33 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2742689
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:11:32.777 25746 INFO nova.osapi_compute.wsgi.server [req-5c8f52bd-8e3c-41f0-95a5-7861d247cafa 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1" status: 202 len: 733 time: 0.4846020
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:07:10.539 25799 INFO nova.metadata.wsgi.server [req-2c3352c8-820a-4166-ab18-cdc88a711208 - - - - -] 10.11.21.132,10.11.10.1 "GET /openstack/2013-10-17/vendor_data.json HTTP/1.1" status: 200 len: 124 time: 0.2239330
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:08:18.553 2931 INFO nova.compute.resource_tracker [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Total usable vcpus: 16, total allocated vcpus: 1
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:21.069 25746 INFO nova.osapi_compute.wsgi.server [req-0b851395-2895-44b9-8265-a27d0bb52910 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" status: 404 len: 296 time: 0.0793190
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:14:05.577 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:02:14.477 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: 78dc1847-8848-49cc-933e-9239b12c9dcf] VM Resumed (Lifecycle Event)
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:01:13.086 25746 INFO nova.osapi_compute.wsgi.server [req-b7948826-c8b0-4d2c-9933-1580f19fdf93 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1575 time: 0.1955159
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:01:39.847 25775 INFO nova.metadata.wsgi.server [-] 10.11.21.124,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" status: 404 len: 176 time: 0.0010281
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:05:48.454 2931 INFO nova.virt.libvirt.driver [-] [instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Instance destroyed successfully.
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:03:57.510 2931 INFO nova.compute.claims [req-d6986b54-3735-4a42-9074-0ba7d9717de9 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] [instance: af5f7392-f7d4-4298-b647-c98924c64aa1] Total memory: 64172 MB, used: 512.00 MB
+nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:07:51.926 25793 INFO nova.metadata.wsgi.server [req-c754e29a-bcc8-48d9-b29d-9c375a27275a - - - - -] 10.11.21.133,10.11.10.1 "GET /openstack/2013-10-17 HTTP/1.1" status: 200 len: 157 time: 0.2319870
+nova-compute.log.1.2017-05-16_13:55:31 2017-05-16 00:12:35.071 2931 INFO nova.compute.manager [req-3ea4052c-895d-4b64-9e2d-04d64c4d94ab - - - - -] [instance: d6b7bd36-2943-4363-9235-fffdd89ea40e] During sync_power_state the instance has a pending task (spawning). Skip.
+2016-09-28 04:30:45, Info                  CBS    Read out cached package applicability for package: Package_for_KB2509553~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112
+2016-09-29 00:01:47, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:40:54, Info                  CSI    0000000a Performing 1 operations; 1 are not lock/unlock and follow:
+2016-09-29 02:04:31, Info                  CBS    Read out cached package applicability for package: Package_for_KB3179573~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:33, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-29 02:04:39, Info                  CBS    Read out cached package applicability for package: Package_for_KB2729094~31bf3856ad364e35~amd64~~6.1.2.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-29 02:04:36, Info                  CBS    Session: 30546354_3319352037 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-29 02:04:25, Info                  CBS    Session: 30546354_3217166192 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:32, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:53, Info                  CBS    Session: 30546174_185407611 initialized by client WindowsUpdateAgent.
+2016-09-29 02:04:38, Info                  CBS    Read out cached package applicability for package: Package_for_KB2705219~31bf3856ad364e35~amd64~~6.1.2.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:48, Info                  CBS    Read out cached package applicability for package: Package_for_KB3179573~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-29 02:03:46, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-29 02:04:33, Info                  CBS    Read out cached package applicability for package: Package_for_KB3067904~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 80, CurrentState:0
+2016-09-28 04:30:31, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-29 02:03:48, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:51, Info                  CBS    Read out cached package applicability for package: Package_for_KB3006121~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:37, Info                  CBS    Read out cached package applicability for package: Package_for_KB2479943~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112
+2016-09-29 02:04:33, Info                  CBS    Read out cached package applicability for package: Package_for_KB3046017~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:39, Info                  CBS    Read out cached package applicability for package: Package_for_KB3076895~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 80, CurrentState:112
+2016-09-29 02:04:01, Info                  CBS    Read out cached package applicability for package: Package_for_KB2943357~31bf3856ad364e35~amd64~~6.1.1.3, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:49, Info                  CBS    Session: 30546174_143845234 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:53, Info                  CBS    Read out cached package applicability for package: Package_for_KB2647753~31bf3856ad364e35~amd64~~6.1.4.0, ApplicableState: 112, CurrentState:112
+2016-09-29 02:03:48, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-29 02:04:33, Info                  CBS    Session: 30546354_3290900409 initialized by client WindowsUpdateAgent.
+2016-09-29 02:03:48, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-29 02:04:11, Info                  CBS    Session: 30546354_3072147897 initialized by client WindowsUpdateAgent.
+2016-09-29 02:03:59, Info                  CBS    Session: 30546354_2955011197 initialized by client WindowsUpdateAgent.
+2016-09-29 02:04:34, Info                  CBS    Session: 30546354_3301471014 initialized by client WindowsUpdateAgent.
+2016-09-29 02:03:48, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-29 02:04:04, Info                  CBS    Session: 30546354_3005294074 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:52, Info                  CBS    Session: 30546174_177107136 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:33, Info                  CBS    Warning: Unrecognized packageExtended attribute.
+2016-09-28 04:30:32, Info                  CBS    Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-28 04:30:51, Info                  CBS    Session: 30546174_171536818 initialized by client WindowsUpdateAgent.
+2016-09-29 02:04:25, Info                  CBS    Session: 30546354_3215566100 initialized by client WindowsUpdateAgent.
+2016-09-29 02:04:01, Info                  CBS    Session: 30546354_2968771985 initialized by client WindowsUpdateAgent.
+2016-09-29 02:04:11, Info                  CBS    Read out cached package applicability for package: Package_for_KB3175024~31bf3856ad364e35~amd64~~6.1.2.0, ApplicableState: 112, CurrentState:112
+2016-09-29 00:01:47, Info                  CBS    Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]
+2016-09-29 02:04:02, Info                  CBS    Session: 30546354_2979852618 initialized by client WindowsUpdateAgent.
+2016-09-29 02:03:52, Info                  CBS    Session: 30546354_2879836898 initialized by client WindowsUpdateAgent.
+2016-09-29 02:03:52, Info                  CBS    Session: 30546354_2879516879 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:36, Info                  CBS    Session: 30546174_21808254 initialized by client WindowsUpdateAgent.
+2016-09-29 02:03:49, Info                  CBS    Session: 30546354_2850665229 initialized by client WindowsUpdateAgent.
+2016-09-28 04:30:51, Info                  CBS    Read out cached package applicability for package: Package_for_KB2808679~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:52, Info                  CBS    Read out cached package applicability for package: Package_for_KB3004375~31bf3856ad364e35~amd64~~6.1.3.1, ApplicableState: 112, CurrentState:112
+2016-09-28 04:30:32, Info                  CBS    Warning: Unrecognized packageExtended attribute.
